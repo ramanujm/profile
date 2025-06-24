@@ -46,9 +46,16 @@ const data = [
 
 const Navbar = () => {
   const [toggleIcon, setToggleIcon] = useState(false);
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
+    setIsNavExpanded(!isNavExpanded);
+  };
+  const handleCloseMenu = () => {
+    console.log("Menu closed");
+    setToggleIcon(false);
+    setIsNavExpanded(false);
   };
 
   return (
@@ -65,6 +72,7 @@ const Navbar = () => {
               <Link
                 to={item.to}
                 className="navbar__container__menu__item__links"
+                onClick={handleCloseMenu}
               >
                 {item.name}
               </Link>

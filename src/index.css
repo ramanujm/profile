@@ -1,13 +1,30 @@
-body {
+@import url('https://googleapis.com/css2?family=Robot+Slab:wght@500&display=swap');
+
+:root {
+  --yellow-theme-background-color: #566099;
+  --yellow-theme-main-color: #ffdd40;
+  --yellow-theme-sub-text-color: #ffffff;
+  --yellow-theme-nav-background-color: #566099;
+} 
+
+*{
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+
+body {
+  background-color: var(--yellow-theme-background-color);
+  height: 100%;  
+}
+
+#root {
+  height: 100%;
 }

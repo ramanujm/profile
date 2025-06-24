@@ -8,10 +8,10 @@ export const skillsData = [
             },
             {
                 skillName: "React",
-                percentage: "90",
+                percentage: "95",
             }, {
                 skillName: "TypeScript",
-                percentage: "92",
+                percentage: "94",
             },
             {
                 skillName: "JSON",
@@ -19,19 +19,19 @@ export const skillsData = [
             },
             {
                 skillName: "RxJS",
-                percentage: "85",
+                percentage: "96.3",
             },
             {
                 skillName: "HTML",
-                percentage: "90",
+                percentage: "99.5",
             },
             {
                 skillName: "CSS",
-                percentage: "85",
+                percentage: "99.5",
             },
             {
                 skillName: "JAVASCRIPT",
-                percentage: "90",
+                percentage: "98",
             },
 
         ],
@@ -41,23 +41,23 @@ export const skillsData = [
         data: [
             {
                 skillName: "JAVA",
-                percentage: "90",
+                percentage: "95",
             },
             {
                 skillName: "REST API",
-                percentage: "90",
+                percentage: "99",
             },
             {
                 skillName: "SOAP",
-                percentage: "70",
+                percentage: "94",
             },
             {
                 skillName: "PYTHON",
-                percentage: "35",
+                percentage: "81",
             },
             {
                 skillName: "KOTLIN",
-                percentage: "38",
+                percentage: "85",
             },
 
         ],
@@ -75,15 +75,15 @@ export const skillsData = [
             },
             {
                 skillName: "POSTGRESQL",
-                percentage: "85",
+                percentage: "89",
             },
             {
                 skillName: "MONGO DB",
-                percentage: "85",
+                percentage: "89",
             },
             {
                 skillName: "FireBase",
-                percentage: "85",
+                percentage: "89",
             },
         ],
     },
@@ -92,31 +92,31 @@ export const skillsData = [
         data: [
             {
                 skillName: "Spring Boot",
-                percentage: "90",
+                percentage: "99.5",
             },
             {
                 skillName: "Spring MVC",
-                percentage: "90",
+                percentage: "98",
             },
             {
                 skillName: "Struts & Struts 2",
-                percentage: "90",
+                percentage: "99",
             }, {
                 skillName: "Hibernate",
-                percentage: "80",
+                percentage: "99",
             },
             {
                 skillName: "Node JS",
-                percentage: "80",
+                percentage: "93",
             },
 
             {
                 skillName: "JUnit",
-                percentage: "85",
+                percentage: "90",
             },
             {
                 skillName: "Selenium",
-                percentage: "80",
+                percentage: "90",
             },
         ],
     },
@@ -141,19 +141,19 @@ export const skillsData = [
             // },
             {
                 skillName: "Docker",
-                percentage: "95",
+                percentage: "98.5",
             },
             {
                 skillName: "Kubernetes",
-                percentage: "90",
+                percentage: "98",
             },
             {
                 skillName: "AWS",
-                percentage: "90",
+                percentage: "95",
             },
             {
                 skillName: "Azure",
-                percentage: "90",
+                percentage: "97",
             },
             {
                 skillName: "Bitbucket",

@@ -18,7 +18,7 @@ const Home = () => {
         </h1>
       </div>
       <div className="home__contactMe">
-        <button onClick={handleHireMe}>Hire Me</button>
+        <button onClick={handleHireMe}>Let's Connect</button>
       </div>
     </section>
   );

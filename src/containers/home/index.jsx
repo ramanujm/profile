@@ -13,8 +13,8 @@ const Home = () => {
       <div className="home__container_wrapper">
         <h1>
           Hello, I'm RAMANUJ
-          <br /> A passionate full stack developer with
-          <br />a love for creating innovative solutions.
+          <br /> A passionate full stack developer creating innovative
+          solutions.
         </h1>
       </div>
       <div className="home__contactMe">

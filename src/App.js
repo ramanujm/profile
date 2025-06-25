@@ -1,6 +1,5 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import { loadFull } from "tsparticles";
 import Home from "./containers/home";
 import About from "./containers/about";
 import Portfolio from "./containers/portfolio";

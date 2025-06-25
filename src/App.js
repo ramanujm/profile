@@ -1,9 +1,7 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Home from "./containers/home";
-import particle from "./helper/particle";
 import About from "./containers/about";
 import Portfolio from "./containers/portfolio";
 import Resume from "./containers/resume";
@@ -13,9 +11,9 @@ import Navbar from "./components/navBar";
 
 function App() {
 
-  const handleInit = async (main) => {
-    await loadFull(main);
-  }
+  // const handleInit = async (main) => {
+  //   await loadFull(main);
+  // }
   return (
     <div className="App">
       {/* Particle js */}

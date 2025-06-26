@@ -24,20 +24,20 @@ const data = [
     to: "/skill",
     icon: "home",
   },
+  // {
+  //   id: 4,
+  //   name: "RESUME",
+  //   to: "/resume",
+  //   icon: "home",
+  // },
+  // {
+  //   id: 5,
+  //   name: "PORTFOLIO",
+  //   to: "/portfolio",
+  //   icon: "home",
+  // },
   {
     id: 4,
-    name: "RESUME",
-    to: "/resume",
-    icon: "home",
-  },
-  {
-    id: 5,
-    name: "PORTFOLIO",
-    to: "/portfolio",
-    icon: "home",
-  },
-  {
-    id: 6,
     name: "CONTACT",
     to: "/contact",
     icon: "home",

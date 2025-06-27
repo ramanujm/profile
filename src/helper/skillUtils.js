@@ -1,41 +1,5 @@
 export const skillsData = [
-    {
-        label: "FRONT END",
-        data: [
-            {
-                skillName: "Angular",
-                percentage: "95",
-            },
-            {
-                skillName: "React",
-                percentage: "95",
-            }, {
-                skillName: "TypeScript",
-                percentage: "94",
-            },
-            {
-                skillName: "JSON",
-                percentage: "99",
-            },
-            {
-                skillName: "RxJS",
-                percentage: "96.3",
-            },
-            {
-                skillName: "HTML",
-                percentage: "99.5",
-            },
-            {
-                skillName: "CSS",
-                percentage: "99.5",
-            },
-            {
-                skillName: "JAVASCRIPT",
-                percentage: "98",
-            },
 
-        ],
-    },
     {
         label: "BACK END",
         data: [
@@ -59,6 +23,85 @@ export const skillsData = [
                 skillName: "KOTLIN",
                 percentage: "85",
             },
+
+        ],
+    },
+    {
+        label: "FRAMEWORKS",
+        data: [
+            {
+                skillName: "Spring Boot",
+                percentage: "99.5",
+            },
+            {
+                skillName: "Spring MVC",
+                percentage: "98",
+            },
+            {
+                skillName: "Struts & Struts 2",
+                percentage: "99",
+            }, {
+                skillName: "Hibernate",
+                percentage: "99",
+            },
+            {
+                skillName: "Node JS",
+                percentage: "93",
+            },
+            {
+                skillName: "Swagger",
+                percentage: "100",
+            },
+            {
+                skillName: "JUnit",
+                percentage: "92",
+            },
+            {
+                skillName: "Selenium",
+                percentage: "93",
+            },
+            {
+                skillName: "MocKito",
+                percentage: "92",
+            }
+        ],
+    },
+    {
+        label: "FRONT END",
+        data: [
+            {
+                skillName: "Angular",
+                percentage: "95",
+            },
+            {
+                skillName: "React",
+                percentage: "95",
+            },
+            {
+                skillName: "TypeScript",
+                percentage: "94",
+            },
+            {
+                skillName: "JAVASCRIPT",
+                percentage: "98",
+            },
+            // {
+            //     skillName: "JSON",
+            //     percentage: "99",
+            // },
+            // {
+            //     skillName: "RxJS",
+            //     percentage: "96.3",
+            // },
+            {
+                skillName: "HTML",
+                percentage: "99.5",
+            },
+            {
+                skillName: "CSS",
+                percentage: "99.5",
+            },
+
 
         ],
     },
@@ -87,39 +130,7 @@ export const skillsData = [
             },
         ],
     },
-    {
-        label: "FRAMEWORKS",
-        data: [
-            {
-                skillName: "Spring Boot",
-                percentage: "99.5",
-            },
-            {
-                skillName: "Spring MVC",
-                percentage: "98",
-            },
-            {
-                skillName: "Struts & Struts 2",
-                percentage: "99",
-            }, {
-                skillName: "Hibernate",
-                percentage: "99",
-            },
-            {
-                skillName: "Node JS",
-                percentage: "93",
-            },
 
-            {
-                skillName: "JUnit",
-                percentage: "90",
-            },
-            {
-                skillName: "Selenium",
-                percentage: "90",
-            },
-        ],
-    },
     {
         label: "Tools",
         data: [
@@ -127,10 +138,7 @@ export const skillsData = [
                 skillName: "Github",
                 percentage: "100",
             },
-            // {
-            //     skillName: "Swagger",
-            //     percentage: "100",
-            // },
+
             // {
             //     skillName: "Sonar Qube",
             //     percentage: "100",

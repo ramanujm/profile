@@ -10,11 +10,11 @@ const Home = () => {
   };
 
   const handleDownload = () => {
-    const fileUrl = "./../../assets/resume/RamanujM.docx"; // if placed in /public/files folder
+    const fileUrl = "/resume/RamanujM.pdf"; // if placed in /public/files folder
 
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "RamanujM.docx"; // rename the file if needed
+    link.download = "RamanujM.pdf"; // rename the file if needed
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

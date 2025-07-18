@@ -40,18 +40,15 @@ const personalInfo = [
     label: "Email",
     value: "mishra.ramanuj@gmail.com",
   },
-  {
-    label: "Org.    ",
-    value: "SR Software Solutions.inc",
-  },
-  {
-    label: "Email",
-    value: "srsoftware.inc@gmail.com",
-  },
 ];
 
-const aboutText =
-  "I am Full stack developer with over 14+ years of experience in various areas of software development and IT technologies. Specialized in Angular, Java, Spring Boot, Struts2, Hibernate, Spring MVC, Oracle. Enthusiastic, self-motivated, ability to work in a team, manage a group of people, manage projects and clients, develop and implement new software codes, cope well within a fast-paced setting, communicate effectively at all levels, and interact supportive within a team environment.";
+const aboutText = `
+I’m a passionate and results-driven Full Stack Developer with over 14 years of experience designing and delivering enterprise-grade applications. I specialize in Java, Spring Boot, Angular, React, Struts2, Hibernate, oracle and Mongodb, and have a proven track record of turning complex business requirements into scalable, maintainable software solutions.
+
+Throughout my career, I’ve worked across the entire SDLC - from architecture and development to deployment and post-release support. I’ve led teams, collaborated with cross-functional stakeholders, and consistently delivered high-quality systems in fast-paced, client-facing environments.
+
+What sets me apart is my ability to balance deep technical expertise with strong communication and leadership skills. I enjoy mentoring junior developers, driving technical decisions, and fostering a team culture centered around collaboration, innovation, and continuous learning.
+My core strength's are:`;
 
 const About = () => {
   return (
@@ -63,8 +60,21 @@ const About = () => {
 
       <div className="about__content">
         <div className="about__content__personalWrapper">
-          <h3>Full stack developer</h3>
-          <p>{aboutText}</p>
+          {/* <h3>Full stack developer</h3> */}
+          <p>
+            {aboutText}
+            <ul style={{ marginTop: "10px" }}>
+              <li>
+                - Full-stack development with Angular or React & Spring Boot
+              </li>
+              <li>- Scalable API and microservice design</li>
+              <li>- Agile methodologies & DevOps integration</li>
+              <li>- Leading teams & managing client relationships</li>
+              <li>- Focus on clean code, performance, and security</li>
+            </ul>
+            Let’s connect - whether you're building something exciting, solving
+            a tough problem, or just want to talk tech.
+          </p>
 
           <h3 className="personalInfoHeaderText">Personal Information</h3>
           <ul>
@@ -77,13 +87,7 @@ const About = () => {
           </ul>
           <div className="about__content__personalWrapper__socialMedia">
             <div>
-              <a
-                href="https://www.facebook.com/ramanuj.mishra.18"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebook size={30} color="#3B5998" />
-              </a>
+              <FaFacebook size={30} color="#3B5998" />
             </div>
             <div>
               <a
@@ -95,13 +99,14 @@ const About = () => {
               </a>
             </div>
             <div>
-              <a
+              <FaGithub size={30} color="#181717" />
+              {/* <a
                 href="https://github.com/ramanujm"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub size={30} color="#181717" />
-              </a>
+              </a> */}
             </div>
             <div>
               <FaTwitter size={30} color="#1DA1F2" />

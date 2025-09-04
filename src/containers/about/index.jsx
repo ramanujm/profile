@@ -30,6 +30,10 @@ import { AiOutlineJava } from "react-icons/ai";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import intellij from "./../../assets/images/intellij.svg";
 import swaggerhub from "./../../assets/images/swagger.png";
+import hibernate from "./../../assets/images/hibernate.png";
+import oracle from "./../../assets/images/oracle.png";
+import mongodb from "./../../assets/images/mongodb.png";
+import sqldb from "./../../assets/images/SQL_Database.png";
 
 const personalInfo = [
   {
@@ -264,6 +268,42 @@ const About = () => {
               <IoLogoJavascript
                 size={60}
                 color="#F7DF1E"
+                className="about__content__servicesWrapper__innerContent__icon"
+              />
+            </div>
+            <div>
+              <img
+                src={hibernate}
+                alt="hibernate"
+                height={60}
+                width={60}
+                className="about__content__servicesWrapper__innerContent__icon"
+              />
+            </div>
+            <div>
+              <img
+                src={oracle}
+                alt="oracle"
+                height={60}
+                width={60}
+                className="about__content__servicesWrapper__innerContent__icon"
+              />
+            </div>
+            <div>
+              <img
+                src={sqldb}
+                alt="mssql"
+                height={60}
+                width={60}
+                className="about__content__servicesWrapper__innerContent__icon"
+              />
+            </div>
+            <div>
+              <img
+                src={mongodb}
+                alt="mongodb"
+                height={60}
+                width={60}
                 className="about__content__servicesWrapper__innerContent__icon"
               />
             </div>

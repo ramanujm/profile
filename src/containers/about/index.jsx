@@ -3,7 +3,6 @@ import "./styles.scss";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
 import {
-  FaDatabase,
   FaDev,
   FaConfluence,
   FaJira,
@@ -34,6 +33,7 @@ import hibernate from "./../../assets/images/hibernate.png";
 import oracle from "./../../assets/images/oracle.png";
 import mongodb from "./../../assets/images/mongodb.png";
 import sqldb from "./../../assets/images/SQL_Database.png";
+import kafka from "./../../assets/images/Apache Kafka.png";
 
 const personalInfo = [
   {
@@ -153,9 +153,11 @@ const About = () => {
             </div>
 
             <div>
-              <FaDatabase
-                size={60}
-                color="#8d99ae"
+              <img
+                src={kafka}
+                alt="Apachi Kafka"
+                height={60}
+                width={60}
                 className="about__content__servicesWrapper__innerContent__icon"
               />
             </div>

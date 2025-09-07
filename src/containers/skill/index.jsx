@@ -1,16 +1,13 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { GiSkills } from "react-icons/gi";
 import { Line } from "rc-progress";
 import { skillsData } from "../../helper/skillUtils";
 import "./styles.scss";
 const Skill = () => {
   return (
     <section id="skills" className="skills">
-      <PageHeaderContent
-        headerText="Skills"
-        icon={<BsInfoCircleFill size={40} />}
-      />
+      <PageHeaderContent headerText="Skills" icon={<GiSkills size={40} />} />
       <div className="skills__content-wrapper">
         {skillsData.map((item, i) => (
           <div key={i} className="skills__content-wrapper__inner-content">

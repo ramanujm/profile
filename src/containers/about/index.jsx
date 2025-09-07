@@ -15,7 +15,6 @@ import { SiSpringboot } from "react-icons/si";
 import {
   DiAngularSimple,
   DiAndroid,
-  DiApple,
   DiReact,
   DiBitbucket,
   DiGithubBadge,

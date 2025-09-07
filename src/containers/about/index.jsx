@@ -34,6 +34,7 @@ import oracle from "./../../assets/images/oracle.png";
 import mongodb from "./../../assets/images/mongodb.png";
 import sqldb from "./../../assets/images/SQL_Database.png";
 import kafka from "./../../assets/images/Apache Kafka.png";
+import swift from "./../../assets/images/Swift.png";
 
 const personalInfo = [
   {
@@ -170,9 +171,11 @@ const About = () => {
             </div>
 
             <div>
-              <DiApple
-                size={60}
-                color="#A2AAAD "
+              <img
+                src={swift}
+                alt="Swift"
+                height={60}
+                width={60}
                 className="about__content__servicesWrapper__innerContent__icon"
               />
             </div>
